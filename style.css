@@ -39,9 +39,17 @@ a {
 }
 
 .header2text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 16px;
 }
 
 .header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
 }
 
 .awesome {
@@ -59,7 +67,7 @@ a {
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
-    padding: 8px 16px;
+    padding: 6px 24px;
     border-radius: 12px;
 }
 
