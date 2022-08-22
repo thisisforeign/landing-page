@@ -15,8 +15,11 @@ img {
     font-weight: bold;
 }
 
-.header1 {
+.header {
     background: #1f2937;
+}
+
+.header1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,6 +36,31 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.header2text {
+}
+
+.header2 {
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.welcome {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.welcomebutton > button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 12px;
 }
 
 .footer {
