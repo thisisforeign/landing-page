@@ -5,8 +5,9 @@ body {
     flex-direction: column;
 }
 
-img {
+.introtext, img {
     width: 300px;
+    border-radius: 50px; /*makes the corners rounded*/
 }
 
 .logo {
@@ -33,19 +34,20 @@ ul {
     font-size: 18px;
 }
 
+.headerlinks
 a {
     text-decoration: none;
     color: #E5E7EB;
 }
 
-.header2text {
+.introtext {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 16px;
 }
 
-.header2 {
+.intro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +70,48 @@ a {
     border: 1px solid royalblue;
     color: white;
     padding: 6px 24px;
-    border-radius: 12px;
+    border-radius: 12px; /*makes the corners rounded*/
+}
+
+.infotitle {
+    font-family: segoe, tahoma;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.pictures {
+    font-family: segoe, tahoma;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.info > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px; /*makes the corners rounded*/
+}
+
+.text
+a { /*makes link blue without underline*/
+    text-decoration: none;
+    color: blue;
+}
+
+.text
+a:hover { /*when link is hovered, will change color*/
+    color: red;
+}
+
+.quote {
+    background: #E5E7EB;
 }
 
 .footer {
