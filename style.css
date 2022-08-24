@@ -137,10 +137,50 @@ a:hover { /*when link is hovered, will change color*/
     font-size: 24px;
 }
 
+.signupsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    background-color: #3882F6;
+    border-radius: 6px; /*makes the corners rounded*/
+    margin: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+}
+
+.signuptexts {
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+}
+
+.signup1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signup2 {
+    font-size: 15px;
+}
+
+button {
+    background: #3882F6;
+    border: 2px solid white;
+    color: white;
+    padding: 6px 24px;
+    border-radius: 6px; /*makes the corners rounded*/
+    font-weight: bold;
+}
+
 .footer {
     background: #1f2937;
     color: white;
     display: flex;
     justify-content: center;
     padding: 16px;
-}
+} 
