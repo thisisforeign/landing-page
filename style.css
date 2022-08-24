@@ -40,6 +40,9 @@ a {
     color: #E5E7EB;
 }
 
+/*end of header*/
+/*start of welcome section*/
+
 .introtext {
     display: flex;
     flex-direction: column;
@@ -72,6 +75,9 @@ a {
     padding: 6px 24px;
     border-radius: 12px; /*makes the corners rounded*/
 }
+
+/*end of welcome section*/
+/*start of random info section*/
 
 .infotitle {
     font-family: segoe, tahoma;
@@ -110,6 +116,9 @@ a:hover { /*when link is hovered, will change color*/
     color: red;
 }
 
+/*end of random info section*/
+/*start of quote section*/
+
 .quotesection {
     background: #E5E7EB;
     display: flex;
@@ -136,6 +145,9 @@ a:hover { /*when link is hovered, will change color*/
     font-weight: bold;
     font-size: 24px;
 }
+
+/*end of quote section*/
+/*start of sign up section*/
 
 .signupsection {
     display: flex;
@@ -176,6 +188,9 @@ button {
     border-radius: 6px; /*makes the corners rounded*/
     font-weight: bold;
 }
+
+/*end of sign up section*/
+/*start of footer*/
 
 .footer {
     background: #1f2937;
